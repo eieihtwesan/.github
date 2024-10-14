@@ -1,0 +1,28 @@
+name: "Feature request"
+description: "Suggest a new feature for the project"
+title: "[Feature] Your feature request"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature description
+        Please provide a clear and concise description of the feature you would like to see.
+  
+  - type: textarea
+    attributes:
+      label: "What problem does this feature solve?"
+      description: "Explain the problem or need that this feature will address."
+      placeholder: "Describe the problem"
+
+  - type: textarea
+    attributes:
+      label: "Proposed solution"
+      description: "Explain your idea for solving the problem."
+      placeholder: "Describe your solution"
+
+  - type: textarea
+    attributes:
+      label: "Alternatives considered"
+      description: "Have you considered any alternative solutions or workarounds?"
+      placeholder: "Describe alternatives or solutions"
